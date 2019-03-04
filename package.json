@@ -1,5 +1,5 @@
 {
-  "name": "koa_graphQL-mongo-api",
+  "name": "koa-graphql-mongo-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
