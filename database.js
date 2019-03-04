@@ -1,10 +1,8 @@
 const mongoose = require('mongoose');
-require('dotenv').config();
 
-const uri = `mongodb+srv://isacmoura:${process.env.PASSWORD}@cluster0-t7ta3.mongodb.net/koa-app`;
 const initDB = () => {
     mongoose.connect(
-        uri,
+        process.env.MONGODB_URI,
         { useNewUrlParser: true }
     );
 
