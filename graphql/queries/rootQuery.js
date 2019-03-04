@@ -1,6 +1,6 @@
 const { GraphQLObjectType, GraphQLString, GraphQLList } = require('graphql');
 
-const gadgetGraphQLType =  require('../gadgetType');
+const gadgetGraphQLType =  require('../types/gadgetType');
 const Gadget = require('../../models/gadgets');
 const queryAllGadgets = require('./queryAllGadgets');
 const queryGadgetById = require('./queryGadgetById');
