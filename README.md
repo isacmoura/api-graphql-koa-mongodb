@@ -1,4 +1,4 @@
-# Api Graphql with KOA and Mongodb
+# API Graphql with Koa and Mongodb
 
 Poweful API made with GraphQL, Koa and MongoDB (Mongo Cloud). 
 
