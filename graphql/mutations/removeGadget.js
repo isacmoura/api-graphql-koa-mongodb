@@ -8,7 +8,7 @@ module.exports = {
     id: { type: GraphQLString }
   },
   resolve(parent, args) {
-    return Gadget.findOneAndDelete(args.id).exec()
+    return Gadget.findByIdAndDelete(args.id).exec()
       .then(gadget => gadget.remove())
       .then(deletedGadget => deletedGadget)
       .catch(err => console.log(err))
