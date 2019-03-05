@@ -83,4 +83,21 @@ mutation{
 }
 ```
 
+## Installing
+1. Clone or download the project.  
+2. Enter on the folder:
+```shell
+cd api-graphql-koa-mongodb
+```
+3. Install the dependencies:
+```shell
+npm install
+```
+4. Run the server:
+```shell
+node server.js
+```
+
+Your project will be running at [http://localhost:9000](http://localhost:9000)
+
 Following the tutorials from [Indrek Lasn, at Strilliant](https://www.strilliant.com/2019/01/27/how-to-setup-a-powerful-api-with-graphql-koa-and-mongodb/)
